@@ -1,0 +1,39 @@
+{
+  "Options":{
+	"environment": "ShopDemoQA, DemoQA, AutomationPractice, Guru99, Local Remote, Agoda",
+  	"browser": "chrome, firefox",
+	"isRemote": "Local Browser, Local Remote, BrowserStack Remote"
+  },
+
+  "environment": "Agoda",
+  "ShopDemoQA": {
+    	"url": "https://shop.demoqa.com/",
+    	"browser": "chrome",
+	"isRemote": "Local Browser"
+  },
+  "Agoda": {
+    	"url": "https://www.agoda.com/",
+    	"browser": "chrome",
+	"isRemote": "Local Browser"
+  },
+  "DemoQA": {
+    	"url": "https://demoqa.com/",
+	"browser": "chrome",
+	"isRemote": "Local Browser"
+  },
+  "AutomationPractice": {
+    	"url": "http://automationpractice.com/index.php",
+	"browser": "chrome",
+	"isRemote": "Local Browser"
+  },
+  "Guru99": {
+    	"url": "https://demo.guru99.com/v4/index.php",
+	"browser": "chrome",
+	"isRemote": "Local Browser"
+  },
+  "Local Remote": {
+    	"url": "http://192.168.100.13:4444/wd/hub/",
+	"browser": "chrome",
+	"isRemote": "Local Remote"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "environment": "dev",
+  "dev": {
+    "url": "https://demo.guru99.com/v4",
+    "be_host": "https://demo.guru99.com/v4"
+  },
+  "test": {
+    "url": "https://demo.guru99.com/v5"
+  },
+  "staging": {
+    "url": "https://staging-demoqa.com"
+  }
+}

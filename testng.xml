@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  	<parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nashtech.tshape.tests.Practice2"/>
+      <class name="com.nashtech.tshape.tests.Practice1"/>
+      <class name="com.nashtech.tshape.tests.BrowserCommands"/>
+      <class name="com.nashtech.tshape.tests.Practice2Continue"/>
+      <class name="com.nashtech.tshape.tests.BrowserNavigationCommands"/>
+      <class name="com.nashtech.tshape.tests.LocatingElement"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test2">
+	<parameter name="browser" value="firefox"/>
+	<classes>
+      <class name="com.nashtech.tshape.tests.Practice2"/>
+      <class name="com.nashtech.tshape.tests.Practice1"/>
+      <class name="com.nashtech.tshape.tests.BrowserCommands"/>
+      <class name="com.nashtech.tshape.tests.Practice2Continue"/>
+      <class name="com.nashtech.tshape.tests.BrowserNavigationCommands"/>
+      <class name="com.nashtech.tshape.tests.LocatingElement"/>
+	</classes>
+</test>
+</suite> <!-- Suite -->
