@@ -4,6 +4,10 @@
   <artifactId>tshape-tuananhle-4748</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>tshape-tuananhle-4748</name>
+<properties>
+ <maven.compiler.source>1.8</maven.compiler.source>
+ <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
   	<dependencies>
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
@@ -69,4 +73,16 @@
     <version>2.13.3</version>
 </dependency>
 	</dependencies>
+	<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 </project>
