@@ -89,6 +89,27 @@
 	 <build>
  <plugins>
      <plugin>
+	     <groupId>org.codehaus.groovy.maven</groupId>
+  <artifactId>gmaven-plugin</artifactId>
+  <version>1.0-rc-3</version>
+  <extensions>true</extensions>
+  <executions>
+    <execution>
+      <goals>
+        <goal>testCompile</goal>
+      </goals>
+      <configuration>
+        <sources>
+          <fileset>
+            <directory>${pom.basedir}/src/test/java</directory>
+            <includes>
+              <include>**/*.groovy</include>
+            </includes>
+          </fileset>
+        </sources>
+      </configuration>
+    </execution>
+  </executions>
          <groupId>org.apache.maven.plugins</groupId>
          <artifactId>maven-compiler-plugin</artifactId>
          <version>3.5.1</version>
